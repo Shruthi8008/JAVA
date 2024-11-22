@@ -1,0 +1,11 @@
+public class example{
+public static void main(String[] args){
+int a = 100;
+float cost = 6.8f;
+float totalCost = a * cost;
+char currency = '$';
+System.out.println("Number of items: " + a);
+System.out.println("Cost per item: " + cost + currency);
+System.out.println("Total cost = " + totalCost + currency);
+}
+}
